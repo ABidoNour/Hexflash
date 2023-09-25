@@ -1,7 +1,8 @@
 extends CharacterBody2D
 
 
-@export var speed : float = 300
+@export var speed : float = 700
+
 
 
 const SPRITE_MAP = {
