@@ -1,7 +1,8 @@
 extends CharacterBody2D
 
 
-@export var speed : float = 700.0
+@export var speed : float = 300
+
 
 const SPRITE_MAP = {
 	Vector2.RIGHT : preload("res://Art/PlayerSprites/PrototypeSide.png"),
