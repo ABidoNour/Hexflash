@@ -5,11 +5,11 @@
 [ext_resource type="Texture2D" uid="uid://d20yw182uhh3a" path="res://Art/PlayerSprites/PrototypeSide.png" id="3_8kll5"]
 [ext_resource type="Texture2D" uid="uid://buqbeyqdrnvjh" path="res://Art/PlayerSprites/PrototypeUp.png" id="4_s8s4d"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_p0m77"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwljh"]
 atlas = ExtResource("2_ft45p")
 region = Rect2(0, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_s22it"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_xhxrw"]
 atlas = ExtResource("2_ft45p")
 region = Rect2(32, 0, 32, 32)
 
@@ -33,10 +33,10 @@ region = Rect2(32, 0, 32, 32)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_p0m77")
+"texture": SubResource("AtlasTexture_qwljh")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_s22it")
+"texture": SubResource("AtlasTexture_xhxrw")
 }],
 "loop": true,
 "name": &"down",

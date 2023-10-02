@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bs5f5gskbvd4h"]
+[gd_scene load_steps=5 format=3 uid="uid://bs5f5gskbvd4h"]
 
 [ext_resource type="Texture2D" uid="uid://cdx1sj4xfy2uf" path="res://Art/BasicBackground.png" id="1_mx6l3"]
 [ext_resource type="PackedScene" uid="uid://b5k1n2mfvw7hc" path="res://player.tscn" id="1_poj7j"]
+[ext_resource type="PackedScene" uid="uid://bc0s5r53wa15m" path="res://HUD/hud.tscn" id="3_0l7hn"]
+[ext_resource type="PackedScene" uid="uid://b3bb4bgv00yq8" path="res://menu/margin_container.tscn" id="4_hvq4b"]
 
 [node name="Main" type="Node2D"]
 
@@ -13,3 +15,18 @@ texture = ExtResource("1_mx6l3")
 
 [node name="Player" parent="." instance=ExtResource("1_poj7j")]
 position = Vector2(332, 227)
+
+[node name="HUD" parent="." instance=ExtResource("3_0l7hn")]
+
+[node name="MainMenu" parent="." instance=ExtResource("4_hvq4b")]
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 2.08165e-12
+offset_top = 2.08165e-12
+offset_right = 1152.0
+offset_bottom = 652.0
+grow_horizontal = 1
+grow_vertical = 1
