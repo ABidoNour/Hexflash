@@ -16,6 +16,7 @@ func _ready():
 	set_current_selection(_current_selection)
 	_current_selection -= 1
 	set_current_selection(_current_selection)
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Input.is_action_just_pressed("ui_down") and _current_selection < 2:
