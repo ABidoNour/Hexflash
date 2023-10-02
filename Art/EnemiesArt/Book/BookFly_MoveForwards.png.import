@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://dkgrfwbhn60y2"
+=======
+uid="uid://dnwx11na6u3qr"
+>>>>>>> Stashed changes
 path="res://.godot/imported/BookFly_MoveForwards.png-8753c757a782ac7624187d04b67c332c.ctex"
 metadata={
 "vram_texture": false
