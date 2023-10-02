@@ -79,3 +79,20 @@ animation = &"down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_xxqrt")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.25
+one_shot = true
+
+[node name="WandStartPositions" type="Node2D" parent="."]
+
+[node name="Marker2D" type="Marker2D" parent="WandStartPositions"]
+position = Vector2(-52, 14)
+
+[node name="Marker2D2" type="Marker2D" parent="WandStartPositions"]
+position = Vector2(-51, 9)
+
+[node name="Marker2D3" type="Marker2D" parent="WandStartPositions"]
+position = Vector2(-51, 11)
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
