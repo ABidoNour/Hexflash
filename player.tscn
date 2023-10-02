@@ -75,7 +75,7 @@ script = ExtResource("1_5c4gn")
 texture_filter = 1
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_eg8r4")
-animation = &"down"
+animation = &"up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_xxqrt")
