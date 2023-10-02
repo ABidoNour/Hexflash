@@ -30,7 +30,7 @@ func _process(delta):
 		$AnimatedSprite2D.animation = "up"
 		$AnimatedSprite2D.flip_h = false
 	
-	#wand shooting input
+	# wand shooting input
 	if Input.is_action_pressed("primary action") and can_wand:
 		#randomly select a marker 2D for the wand blast to spawn
 		var wand_markers = $WandStartPositions.get_children()
